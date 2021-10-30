@@ -49,7 +49,7 @@ public class ElectBill
 				else 
 					Bill=(100*2)+(100*4.50)+(300*6)+((CurrReading-500)*7); /*charge 7rs if less than 100 units*/
 				break; }
-		default: System.out.println("Wrong Entry Please Check!");
+		default: System.out.println("Wrong Entry Please Check!"); /* if the user enters a wrong input */
 		} 
 		return Bill; /* will return the calculated to the global variable bill*/
 		} 
